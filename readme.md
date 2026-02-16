@@ -1,22 +1,56 @@
 # 🎧 Flashcard Audio Generator Guide
 
+This project converts flashcard CSV files into natural‑sounding MP3
+audio files.
+
+It is used to aid in memorising One Piece trading cards. As a blind player this is incredibly helpful. It converts files I use for flash cards into audio fiels I can listen to as I go about other tasks.
+
+You can now choose between two different text‑to‑speech engines:
+
+-   **google-tts.py** → Uses Google's TTS engine\
+-   **natural.py** → Uses Microsoft Windows natural AI voices
+
+------------------------------------------------------------------------
+
 ## ✅ Prerequisites
 
-1.  Install Python from https://www.python.org/\
+### 1️⃣ Install Python
 
-2.  Install FFmpeg. The easiest way is via PowerShell (as Admin) using:
+Download and install Python from:\
+https://www.python.org/
 
-    ``` powershell
-    choco install ffmpeg
-    ```
+Make sure you check **"Add Python to PATH"** during installation.
 
-    (Requires `<organization>`{=html}Chocolatey`</organization>`{=html})
+------------------------------------------------------------------------
 
-3.  Install the required Python libraries:
+### 2️⃣ Install FFmpeg
 
-    ``` bash
-    pip install edge-tts pandas pydub
-    ```
+FFmpeg is required for exporting MP3 files.
+
+The easiest method (Windows) is using PowerShell as Administrator:
+
+``` powershell
+choco install ffmpeg
+```
+
+(Requires Chocolatey: https://chocolatey.org/)
+
+Alternatively, you may install FFmpeg manually and ensure it is added to
+your system PATH.
+
+------------------------------------------------------------------------
+
+### 3️⃣ Install Python Dependencies
+
+All required libraries are now included in `requirements.txt`.
+
+Inside your project folder, run:
+
+``` bash
+pip install -r requirements.txt
+```
+
+This will install everything needed for both TTS engines.
 
 ------------------------------------------------------------------------
 
@@ -26,90 +60,145 @@ Create the following structure:
 
     project-folder/
     │
-    ├── import/      # Place your CSV files here
-    ├── output/      # Generated MP3 files will be saved here
-    └── your_script.py
+    ├── import/          # Place your CSV files here
+    ├── output/          # Generated MP3 files will be saved here
+    ├── google-tts.py
+    ├── natural.py
+    └── requirements.txt
 
--   Create a **main project folder**
--   Inside it, create:
+### Setup Steps
+
+1.  Create a **main project folder**
+2.  Inside it, create:
     -   `import` → for CSV files\
     -   `output` → where MP3 files are saved\
--   Place your Python script (`.py` file) in the main project folder
+3.  Place:
+    -   `google-tts.py`
+    -   `natural.py`
+    -   `requirements.txt` inside the main project folder
 
 ------------------------------------------------------------------------
 
 ## 📄 CSV Specifications
 
--   **Format:** Must be a `.csv` file\
+-   **Format:** `.csv`
 -   **Required Columns:**
-    -   `Front`\
-    -   `Back`\
+    -   `Front`
+    -   `Back`
 -   **Naming:**
     -   The final MP3 file will be named exactly the same as the CSV
-        file\
+        file
 -   **Location:**
     -   Place the CSV file inside the `import` folder
 
 ------------------------------------------------------------------------
 
-## ⚙️ How the Script Works
+## ⚙️ How the Scripts Work
 
-1.  Scans the `import` folder for the first CSV file it finds\
-2.  Uses `<organization>`{=html}Microsoft`</organization>`{=html}'s
-    Natural AI voices to read the **"Front"** text\
-3.  Waits for the duration set in `FRONT_BACK_PAUSE` (default: 5
-    seconds)\
-4.  Reads the **"Back"** text\
-5.  Waits for the duration set in `NEXT_CARD_PAUSE` (default: 1 second)\
-6.  Exports the combined audio to the `output` folder as an MP3
+Both scripts:
+
+1.  Scan the `import` folder for the first CSV file found\
+2.  Read the **Front** column text\
+3.  Wait for the configured Front/Back pause\
+4.  Read the **Back** column text\
+5.  Wait for the configured next‑card pause\
+6.  Export the combined audio to the `output` folder as an MP3
 
 ------------------------------------------------------------------------
 
-## 🔧 Adjustable Variables (Inside the Script)
+## 🎙 Choosing Your TTS Engine
 
-### 🎙 VOICE
+### ▶ Option 1: Google TTS
 
-Change the voice string, for example:
+Run:
+
+``` bash
+python google-tts.py
+```
+
+Uses Google's text‑to‑speech engine.
+
+Best for: - Simple setup - Cloud-based voice generation - Consistent
+cross‑platform behavior
+
+------------------------------------------------------------------------
+
+### ▶ Option 2: Windows Natural Voices
+
+Run:
+
+``` bash
+python natural.py
+```
+
+Uses Microsoft Windows built‑in natural AI voices.
+
+Best for: - High-quality neural voices - Offline generation (after voice
+installation) - Customizable voice selection
+
+Note: Windows natural voices require Windows OS.
+
+------------------------------------------------------------------------
+
+## 🔧 Adjustable Variables (Inside the Scripts)
+
+### 🎙 VOICE (natural.py only)
+
+Example:
 
     en-GB-RyanNeural
     en-US-JennyNeural
 
-This changes the speaker voice.
+Change this value to select a different Windows neural voice.
+
+------------------------------------------------------------------------
 
 ### 🚀 SPEED
 
-Change the percentage value to adjust speaking rate (without changing
-pitch):
+Adjust the speaking rate percentage (without changing pitch):
 
     +10%
     +20%
+    -10%
+
+------------------------------------------------------------------------
 
 ### ⏱ PAUSES
 
-Adjust silence timing using milliseconds: - `1000 = 1 second` - Modify
-pause values to control silence between: - Front and Back - Each
-flashcard
+Silence is controlled in milliseconds:
+
+-   `1000 = 1 second`
+
+You can modify pause values to control silence between: - Front and
+Back - Each flashcard
 
 ------------------------------------------------------------------------
 
-## ▶️ Running the Script
+## ▶️ Running the Project
 
-1.  Open Terminal or PowerShell inside your project folder\
+1️⃣ Open Terminal or PowerShell inside your project folder
 
-2.  Run:
+2️⃣ Run one of the following:
 
-    ``` bash
-    python your_script_name.py
-    ```
-
-3.  Wait until you see:
-
-```{=html}
-<!-- -->
+``` bash
+python google-tts.py
 ```
+
+or
+
+``` bash
+python natural.py
+```
+
+3️⃣ Wait until you see:
+
     Finished!
 
+Your MP3 file will appear inside the `output` folder.
+
 ------------------------------------------------------------------------
 
-**You're all set! 🎉 Your flashcards will now be converted into
-natural‑sounding MP3 audio files.**
+## 🎉 Done!
+
+Your flashcards will now be converted into natural‑sounding MP3 audio
+files using your chosen TTS engine.
