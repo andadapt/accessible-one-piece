@@ -9,7 +9,7 @@ IMPORT_FOLDER = 'import'
 OUTPUT_FOLDER = 'output'
 FRONT_BACK_PAUSE = 5000  # 5 seconds
 NEXT_CARD_PAUSE = 1000   # 1 second
-SPEECH_SPEED = 1.2       # <--- ADJUST THIS (1.0 is normal, 1.5 is fast)
+SPEECH_SPEED = 1.0       # <--- ADJUST THIS (1.0 is normal, 1.5 is fast)
 
 # Ensure folders exist
 os.makedirs(IMPORT_FOLDER, exist_ok=True)
