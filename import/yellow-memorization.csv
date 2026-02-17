@@ -1,0 +1,241 @@
+Front,Back
+"Stat Check: What is the cost, power, and counter of Jewelry Bonney?","Name: Jewelry Bonney
+Cost: 9
+Power: 10000
+Counter: 0
+Effect: [On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.
+Trigger: [Trigger] If you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 7 or less."
+"Effect Check: Which card has this effect? [On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.","Name: Jewelry Bonney
+Cost: 9
+Power: 10000
+Counter: 0
+Effect: [On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.
+Trigger: [Trigger] If you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 7 or less."
+Trigger Check: What happens if Jewelry Bonney is checked in Life?,"Name: Jewelry Bonney
+Cost: 9
+Power: 10000
+Counter: 0
+Effect: [On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.
+Trigger: [Trigger] If you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 7 or less."
+"Stat Check: What is the cost, power, and counter of Eustass Captain Kid?","Name: Eustass Captain Kid
+Cost: 8
+Power: 9000
+Counter: 0
+Effect: [On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards. [End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.
+Trigger: "
+"Effect Check: Which card has this effect? [On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards. [End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.","Name: Eustass Captain Kid
+Cost: 8
+Power: 9000
+Counter: 0
+Effect: [On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards. [End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.
+Trigger: "
+"Stat Check: What is the cost, power, and counter of Monkey D Luffy?","Name: Monkey D Luffy
+Cost: 6
+Power: 5000
+Counter: 0
+Effect: [When Attacking] If you have 2 or less Life cards, draw 1 card and trash 1 card from your hand.
+Trigger: "
+"Effect Check: Which card has this effect? [When Attacking] If you have 2 or less Life cards, draw 1 card and trash 1 card from your hand.","Name: Monkey D Luffy
+Cost: 6
+Power: 5000
+Counter: 0
+Effect: [When Attacking] If you have 2 or less Life cards, draw 1 card and trash 1 card from your hand.
+Trigger: "
+"Stat Check: What is the cost, power, and counter of Jinbe?","Name: Jinbe
+Cost: 6
+Power: 5000
+Counter: 2000
+Effect: -
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+Effect Check: Which card has this effect? -,"Name: Jinbe
+Cost: 6
+Power: 5000
+Counter: 2000
+Effect: -
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+Trigger Check: What happens if Jinbe is checked in Life?,"Name: Jinbe
+Cost: 6
+Power: 5000
+Counter: 2000
+Effect: -
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+"Stat Check: What is the cost, power, and counter of Nico Robin 6 cost?","Name: Nico Robin 6 cost
+Cost: 6
+Power: 6000
+Counter: 1000
+Effect: [On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.
+Trigger: [Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand."
+"Effect Check: Which card has this effect? [On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.","Name: Nico Robin 6 cost
+Cost: 6
+Power: 6000
+Counter: 1000
+Effect: [On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.
+Trigger: [Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand."
+Trigger Check: What happens if Nico Robin 6 cost is checked in Life?,"Name: Nico Robin 6 cost
+Cost: 6
+Power: 6000
+Counter: 1000
+Effect: [On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.
+Trigger: [Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand."
+"Stat Check: What is the cost, power, and counter of Rob Lucci?","Name: Rob Lucci
+Cost: 5
+Power: 6000
+Counter: 1000
+Effect: -
+Trigger: [Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards."
+Effect Check: Which card has this effect? -,"Name: Rob Lucci
+Cost: 5
+Power: 6000
+Counter: 1000
+Effect: -
+Trigger: [Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards."
+Trigger Check: What happens if Rob Lucci is checked in Life?,"Name: Rob Lucci
+Cost: 5
+Power: 6000
+Counter: 1000
+Effect: -
+Trigger: [Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards."
+"Stat Check: What is the cost, power, and counter of Kaku?","Name: Kaku
+Cost: 4
+Power: 5000
+Counter: 1000
+Effect: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, this Character gains +1000 power.
+Trigger: [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+"Effect Check: Which card has this effect? If the number of your Life cards is equal to or less than the number of your opponent's Life cards, this Character gains +1000 power.","Name: Kaku
+Cost: 4
+Power: 5000
+Counter: 1000
+Effect: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, this Character gains +1000 power.
+Trigger: [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+Trigger Check: What happens if Kaku is checked in Life?,"Name: Kaku
+Cost: 4
+Power: 5000
+Counter: 1000
+Effect: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, this Character gains +1000 power.
+Trigger: [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+"Stat Check: What is the cost, power, and counter of Nico Robin Blocker?","Name: Nico Robin Blocker
+Cost: 4
+Power: 2000
+Counter: 2000
+Effect: [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+"Effect Check: Which card has this effect? [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)","Name: Nico Robin Blocker
+Cost: 4
+Power: 2000
+Counter: 2000
+Effect: [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+Trigger Check: What happens if Nico Robin Blocker is checked in Life?,"Name: Nico Robin Blocker
+Cost: 4
+Power: 2000
+Counter: 2000
+Effect: [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+"Stat Check: What is the cost, power, and counter of Sanji?","Name: Sanji
+Cost: 4
+Power: 5000
+Counter: 1000
+Effect: [On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.
+Trigger: [Trigger] You may trash 1 card from your hand: Play this card."
+"Effect Check: Which card has this effect? [On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.","Name: Sanji
+Cost: 4
+Power: 5000
+Counter: 1000
+Effect: [On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.
+Trigger: [Trigger] You may trash 1 card from your hand: Play this card."
+Trigger Check: What happens if Sanji is checked in Life?,"Name: Sanji
+Cost: 4
+Power: 5000
+Counter: 1000
+Effect: [On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.
+Trigger: [Trigger] You may trash 1 card from your hand: Play this card."
+"Stat Check: What is the cost, power, and counter of Usopp?","Name: Usopp
+Cost: 3
+Power: 4000
+Counter: 1000
+Effect: [On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.
+Trigger: "
+Effect Check: Which card has this effect? [On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.,"Name: Usopp
+Cost: 3
+Power: 4000
+Counter: 1000
+Effect: [On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.
+Trigger: "
+"Stat Check: What is the cost, power, and counter of Nami?","Name: Nami
+Cost: 3
+Power: 1000
+Counter: 1000
+Effect: If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+"Effect Check: Which card has this effect? If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.","Name: Nami
+Cost: 3
+Power: 1000
+Counter: 1000
+Effect: If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+Trigger Check: What happens if Nami is checked in Life?,"Name: Nami
+Cost: 3
+Power: 1000
+Counter: 1000
+Effect: If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.
+Trigger: [Trigger] If your Leader is [Monkey.D.Luffy], play this card."
+"Stat Check: What is the cost, power, and counter of Brook?","Name: Brook
+Cost: 2
+Power: 2000
+Counter: 1000
+Effect: [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)
+Trigger: "
+"Effect Check: Which card has this effect? [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)","Name: Brook
+Cost: 2
+Power: 2000
+Counter: 1000
+Effect: [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)
+Trigger: "
+"Stat Check: What is the cost, power, and counter of Iai Death Lion Song?","Name: Iai Death Lion Song
+Cost: 2
+Power: 0
+Counter: 0
+Effect: [Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.
+Trigger: [Trigger] Draw 2 cards and trash 1 card from your hand."
+"Effect Check: Which card has this effect? [Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.","Name: Iai Death Lion Song
+Cost: 2
+Power: 0
+Counter: 0
+Effect: [Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.
+Trigger: [Trigger] Draw 2 cards and trash 1 card from your hand."
+Trigger Check: What happens if Iai Death Lion Song is checked in Life?,"Name: Iai Death Lion Song
+Cost: 2
+Power: 0
+Counter: 0
+Effect: [Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.
+Trigger: [Trigger] Draw 2 cards and trash 1 card from your hand."
+"Stat Check: What is the cost, power, and counter of Lilith?","Name: Lilith
+Cost: 1
+Power: 2000
+Counter: 1000
+Effect: [On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.
+Trigger: [Trigger] Activate this card's [On Play] effect."
+"Effect Check: Which card has this effect? [On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.","Name: Lilith
+Cost: 1
+Power: 2000
+Counter: 1000
+Effect: [On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.
+Trigger: [Trigger] Activate this card's [On Play] effect."
+Trigger Check: What happens if Lilith is checked in Life?,"Name: Lilith
+Cost: 1
+Power: 2000
+Counter: 1000
+Effect: [On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.
+Trigger: [Trigger] Activate this card's [On Play] effect."
+"Stat Check: What is the cost, power, and counter of Kizaru Compared to Two Years Ago We are a Hundred Times Stronger Now?","Name: Kizaru Compared to Two Years Ago We are a Hundred Times Stronger Now
+Cost: 1
+Power: 0
+Counter: 0
+Effect: [Main] Your [Monkey.D.Luffy] Leader gains [Unblockable] during this turn. (This card cannot be blocked.) [Counter] Your Leader gains +3000 power during this battle.
+Trigger: "
+Effect Check: Which card has this effect? [Main] Your [Monkey.D.Luffy] Leader gains [Unblockable] during this turn. (This card cannot be blocked.) [Counter] Your Leader gains +3000 power during this battle.,"Name: Kizaru Compared to Two Years Ago We are a Hundred Times Stronger Now
+Cost: 1
+Power: 0
+Counter: 0
+Effect: [Main] Your [Monkey.D.Luffy] Leader gains [Unblockable] during this turn. (This card cannot be blocked.) [Counter] Your Leader gains +3000 power during this battle.
+Trigger: "
